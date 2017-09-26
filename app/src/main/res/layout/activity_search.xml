@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:ptr="http://schemas.android.com/tools"
+              android:orientation="vertical">
+
+    <com.quinny898.library.persistentsearch.SearchBox
+        android:id="@+id/activity_search_searchbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!--<com.handmark.pulltorefresh.library.PullToRefreshListView-->
+        <!--android:id="@+id/activity_search_listView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--ptr:ScrollingWhileRefreshingEnabled="true"/>-->
+
+</LinearLayout>
